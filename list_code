@@ -1,0 +1,18 @@
+list_1 = (2, 3, 4) #int
+list_2 = ("api", "air", "iftul") #str
+list_3 = (24, False, "halo")
+
+print (list_1[1])
+print (list_2[2])
+print (list_3[0])
+
+hari = ("senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu")
+print (hari[2])
+
+nama_depan = "banyu"
+nama_belakang = "rangga"
+agama = "islam"
+menikah = "False"
+
+profile = (nama_depan, nama_belakang, agama, menikah)
+print (profile)
