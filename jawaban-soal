@@ -1,0 +1,17 @@
+print("Robot siap beroprasi")
+print("Robot bergerak maju") #print untuk menampilkan text
+Kecepatan = "10" 
+print ("Kecepatan Robot = " + Kecepatan)
+
+arah = "kiri"
+kecepatan = 5
+durasi = str(10) + " detik"
+
+print ("Robot bergerak ke " + arah)
+print ("Kecepatan = " + str(kecepatan))
+print ("Durasi = " + str(durasi))
+
+status1 = "Robot aktif"
+status2 = "menunggu perintah..."
+
+print (status1, "dan " + status2)
