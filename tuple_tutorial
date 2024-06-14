@@ -1,0 +1,43 @@
+tipe1 = (2, 3, 4)
+tipe2 = ("numerouno", "makan")
+tipe3 = (21, False, "ababiu", "mash")
+
+print (tipe1[1])
+print (tipe2[0])
+print (tipe3[2])
+
+list1 = list(tipe1)
+list1[1] = 2
+tipe1 = tuple(list1)
+print(tipe1)
+
+#soal1
+lokasi = ("Jogja", -1234321, -234321234)
+print(lokasi[0])
+print("lintang", lokasi[1])
+print("bujur", lokasi[2])
+
+#soal2
+produk = ("laptop", 150000000, 20)
+print(produk[1])
+
+#soal3
+karyawan = ("alok", "engineering", 50)
+print("dapartemen",(karyawan[1]))
+print("masa kerja",(karyawan[0]), ":", (karyawan[2]))
+
+#soaol4
+config = ("localhost", "admin", "password", "database_name")
+print(config[1])
+print(config[3])
+
+#soal5
+mahasiswa = ("ata", "ipa", [85, 96, 64])
+list_mahasiswa = list(mahasiswa)
+print ("nama ", (mahasiswa[0]))
+print ("nilai ", (list_mahasiswa[2]))
+
+list_mahasiswa[2][2] = 1000
+mahasiswa = tuple(list_mahasiswa)
+print(mahasiswa)
+
