@@ -1,0 +1,28 @@
+profil = {
+    "nama" : "nento",
+    "age" : 12,
+    "hobbies" : ["sleep", "learning"]
+}
+
+print (profil["nama"])
+print ("nama", profil["nama"], "umur", profil["age"])
+
+#latihan
+karyawan = {
+    "nama" : "ludbi",
+    "kerja" : "penjudi"
+}
+karyawan["kerja"] = "pemadan kebakaran"
+karyawan["istansi"] = "indoapi"
+print("nama", karyawan["nama"], "kerja", karyawan["kerja"], "istansi", karyawan["istansi"])
+karyawan.pop("istansi")
+print(karyawan)
+
+buku = {}
+judul = "laskar matahari"
+penulis = "alie"
+tahun = 500
+buku["judul"] = "laskar matahari"
+buku["penulis"] = "alie"
+buku["tahun"] = 500
+print(buku)
